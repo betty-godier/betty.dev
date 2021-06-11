@@ -1,4 +1,18 @@
 
+| ![Icon-App-29x29@2x](https://user-images.githubusercontent.com/72552073/121742750-9084e880-cb00-11eb-8ab5-97fe3d01b7e2.png) | Qualiveille|  
+| ------ | ------ |
+| iPhone | [App Store Link](), [Github repo]() | 
+
+- The Qualiveille project allows quality specialists to benefit from a watch on their profession and the job market.
+
+Design, architecture and development : [Betty Godier](https://www.linkedin.com/in/betty-godier/)
+
+- Data pulled from REST APIs
+- Keep favorite with Core Data
+- Data Flow with Combine
+- Development with Foundation, Swift, UIKit, SwiftUI
+- Pattern MVVM
+- Write Unit Testing (XCTest) & Instrumentation tests
 
 
 | ![Icon-App-29x29@2x](https://user-images.githubusercontent.com/72552073/118501201-c4026c00-b728-11eb-96cc-cdb8cf5b2b65.png) | Reciplease|  
