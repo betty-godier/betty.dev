@@ -1,4 +1,4 @@
-
+![](https://img.shields.io/badge/Deployment-iOS-yellow)  
 # Qualiveille Application
 ![](https://img.shields.io/badge/Deployment-iOS-yellow)  
 ![](https://img.shields.io/badge/Framework-SwiftUI-orange) ![](https://img.shields.io/badge/Framework-Combine-orange)  ![](https://img.shields.io/badge/Framework-Core%20Data-orange)
