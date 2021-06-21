@@ -1,7 +1,7 @@
-![](https://img.shields.io/badge/Deployment-iOS-yellow)  
 # Qualiveille Application
-![](https://img.shields.io/badge/Deployment-iOS-yellow)  
-![](https://img.shields.io/badge/Framework-SwiftUI-orange) ![](https://img.shields.io/badge/Framework-Combine-orange)  ![](https://img.shields.io/badge/Framework-Core%20Data-orange)
+![](https://img.shields.io/badge/Deployment-iOS-yellow) ![](https://img.shields.io/badge/Architecture-Model--view--viewmodel-green)
+![](https://img.shields.io/badge/Framework-SwiftUI-orange) ![](https://img.shields.io/badge/Framework-Combine-orange) ![](https://img.shields.io/badge/Framework-Core%20Data-orange) 
+
 | ![Icon-App-29x29@2x](https://user-images.githubusercontent.com/72552073/121742750-9084e880-cb00-11eb-8ab5-97fe3d01b7e2.png) | Qualiveille|  
 | ------ | ------ |
 | iPhone | [App Store Link](), [Github repo]() | 
@@ -18,7 +18,8 @@ Design, architecture and development : [Betty Godier](https://www.linkedin.com/i
 - Write Unit Testing (XCTest) & Instrumentation tests
 
 # Reciplease Application
-![](https://img.shields.io/badge/Deployment-iOS-yellow) ![](https://img.shields.io/badge/Framework-Core%20Data-orange)
+![](https://img.shields.io/badge/Deployment-iOS-yellow) ![](https://img.shields.io/badge/Architecture-Model--view--viewmodel--Coordinator%20Pattern-green)
+![](https://img.shields.io/badge/Framework-Core%20Data-orange)
 | ![Icon-App-29x29@2x](https://user-images.githubusercontent.com/72552073/118501201-c4026c00-b728-11eb-96cc-cdb8cf5b2b65.png) | Reciplease|  
 | ------ | ------ |
 | iPhone | [App Store Link](https://apps.apple.com/us/app/reciplease-recipe/id1565918532), [Github repo]() | 
