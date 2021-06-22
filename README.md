@@ -4,7 +4,7 @@
 
 | ![Icon-App-29x29@2x](https://user-images.githubusercontent.com/72552073/121742750-9084e880-cb00-11eb-8ab5-97fe3d01b7e2.png) | Qualiveille|  
 | ------ | ------ |
-| iPhone | [App Store Link](), [Github repo]() | 
+| iPhone | [App Store Link](https://apps.apple.com/us/app/qualiveille-la-newsletter/id1573148689), [Github repo]() | 
 
 - The Qualiveille project allows quality specialists to benefit from a watch on their profession and the job market.
 
