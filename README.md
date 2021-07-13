@@ -15,6 +15,7 @@ Design, architecture and development : [Betty Godier](https://www.linkedin.com/i
 - Data Flow with Combine
 - Development with Foundation, Swift, UIKit, SwiftUI
 - Write Unit Testing (XCTest) & Instrumentation tests
+- Widgets
 
 # Reciplease Application
 ![](https://img.shields.io/badge/Deployment-iOS-yellow) ![](https://img.shields.io/badge/Architecture-Model--view--viewmodel--Coordinator%20Pattern-green)
