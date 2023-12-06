@@ -1,0 +1,16 @@
+addReviewers: true
+
+# Set addAssignees to 'author' to set the PR creator as the assignee.
+addAssignees: author
+
+reviewers:
+  - betty-godier
+  
+numberOfReviewers: 1
+
+assignees:
+ - betty-
+
+numberOfAssignees: 0
+
+runOnDraft: true
