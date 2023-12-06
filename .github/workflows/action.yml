@@ -1,25 +1,10 @@
-name: CI
-
+name: 'Auto Assign'
 on:
-  push:
-    branches: [ "main" ]
   pull_request:
-    branches: [ "main" ]
-
-  workflow_dispatch:
+    types: [opened, ready_for_review]
 
 jobs:
-  build:
+  add-reviews:
     runs-on: ubuntu-latest
-
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: betty.dev/
-
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+      - uses: betty.dev/auto-assign-action
