@@ -8,11 +8,10 @@ jobs:
   auto_assign_job:
     runs-on: ubuntu-latest
     steps:
-      - name: Auto Assign to Author
+      - name: Auto Assign to Author and Reviewers
         uses: actions/github-script@v5
         with:
           script: | 
-            const github = require('@actions/github');
             const core = require('@actions/core');
             try {
               // Add assignee
