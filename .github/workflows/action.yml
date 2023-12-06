@@ -1,10 +1,19 @@
-name: 'Auto Assign'
+name: Auto Assign
+
 on:
   pull_request:
     types: [opened, ready_for_review]
 
 jobs:
-  add-reviews:
+  auto_assign_job:
     runs-on: ubuntu-latest
     steps:
-      - uses: betty.dev/auto-assign-action
+      - name: Auto Assign to Author
+      - uses: betty.dev/auto-assign-action@v1
+      with:
+        addReviewers: true
+        addAssignees: author
+        reviewers:
+          - betty-godier
+        numberOfReviewers: 1
+        runOnDraft: true
