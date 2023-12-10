@@ -1,4 +1,8 @@
+
 # Weather Application
+=======
+[![Auto Assign](https://github.com/betty-godier/betty.dev/actions/workflows/action.yml/badge.svg?event=status)](https://github.com/betty-godier/betty.dev/actions/workflows/action.yml)
+
 
 # Qualiveille Application
 ![](https://img.shields.io/badge/Deployment-iOS-yellow) ![](https://img.shields.io/badge/Architecture-Model--view--viewmodel-green)
