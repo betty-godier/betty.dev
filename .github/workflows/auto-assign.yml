@@ -11,10 +11,19 @@ jobs:
       - name: Auto Assign to Author and Reviewers
         uses: actions/github-script@v6
         with:
-          script: | 
+          script: |
+            // Add assignee
             github.rest.issues.addAssignees({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
             assignees: ['betty-godier']
+            })
+            
+            // Add Reviewer
+            github.rest.pulls.requestReviewers({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+              reviewers: [betty-godier]
             })
