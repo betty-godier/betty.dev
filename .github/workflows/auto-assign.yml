@@ -2,7 +2,7 @@ name: Auto Assign to Pull Requests
 
 on: 
   pull_request:
-    types: [opened, reopened, edited]
+    types: [opened]
 
 jobs:
   auto_assign_job:
