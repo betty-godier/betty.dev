@@ -1,36 +1,20 @@
-name: Auto Assign
+name: Auto Assign to Pull Requests
 
-on: [push]
-  # pull_request:
-    # types: [opened, ready_for_review]
+on: 
+  pull_request:
+    types: [opened]
 
 jobs:
   auto_assign_job:
     runs-on: ubuntu-latest
     steps:
       - name: Auto Assign to Author and Reviewers
-        uses: actions/github-script@v5
+        uses: actions/github-script@v6
         with:
           script: | 
-            const core = require('@actions/core');
-            try {
-              // Add assignee
-              const assigneeResponse = await github.rest.issues.addAssignees({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: context.issue.number,
-                assignees: [context.actor] // Assign to author of the PR
-              });
-
-              // Add reviewers
-              const reviewerResponse = await github.rest.pulls.requestReviewers({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                pull_number: context.issue.number,
-                reviewers: ['betty-godier'] // List of reviewers
-              });
-              
-              core.info('Assignee and Reviewers added successfully');
-              } catch (error) {
-                core.setFailed(`Action failed with error: ${error}`);
-              }
+            github.rest.issues.addAssignees({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            assignees: ['betty-godier']
+            })
