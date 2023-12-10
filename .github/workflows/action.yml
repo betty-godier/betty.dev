@@ -21,6 +21,7 @@ jobs:
                 issue_number: context.issue.number,
                 assignees: [context.actor] // Assign to author of the PR
               });
+
               // Add reviewers
               const reviewerResponse = await github.rest.pulls.requestReviewers({
                 owner: context.repo.owner,
@@ -28,6 +29,7 @@ jobs:
                 pull_number: context.issue.number,
                 reviewers: ['betty-godier'] // List of reviewers
               });
+              
               core.info('Assignee and Reviewers added successfully');
               } catch (error) {
                 core.setFailed(`Action failed with error: ${error}`);
